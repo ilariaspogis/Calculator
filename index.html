@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>A simple Calculator</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+  <div class="calculator-container">
+    <table cellspacing="0" id="calculator">
+      <tr class="calc-storage-row" id="result-storage-row">
+        <td colspan="4" id="previous-result"></td>
+      </tr>
+      <tr class="calc-row" id="result-row">
+        <td colspan="4" id="current-result"></td>
+      </tr>
+      <tr class="calc-row">
+        <td><input class="clear funcbuttons" type="button" value="AC" /></td>
+        <td><input class="invert funcbuttons" type="button" value="+/-" /></td>
+        <td><input class="delete size-fix funcbuttons" type="button" value="⌫" /></td>
+        <td><input class="operant divide" type="button" value="÷" /></td>
+      </tr>
+      <tr class="calc-row">
+        <td><input class="number" type="button" value="7" /></td>
+        <td><input class="number" type="button" value="8" /></td>
+        <td><input class="number" type="button" value="9" /></td>
+        <td><input class="operant multiply" type="button" value="∗" /></td>
+      </tr>
+      <tr class="calc-row">
+        <td><input class="number" type="button" value="4" /></td>
+        <td><input class="number" type="button" value="5" /></td>
+        <td><input class="number" type="button" value="6" /></td>
+        <td><input class="operant minus" type="button" value="-" /></td>
+      </tr>
+      <tr class="calc-row">
+        <td><input class="number" type="button" value="1" /></td>
+        <td><input class="number" type="button" value="2" /></td>
+        <td><input class="number" type="button" value="3" /></td>
+        <td><input class="operant plus" type="button" value="+" /></td>
+      </tr>
+      <tr class="calc-row">
+        <td colspan="2"><input class="number" type="button" value="0" /></td>
+        <td><input type="button" class="dot" value="." /></td>
+        <td><input class="equal" type="button" value="=" /></td>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript" src="./live.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

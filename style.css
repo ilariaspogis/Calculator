@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+  font-weight: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to left,blue,black);
+}
+
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculator{
+  margin: 75px auto;
+  height: 600px;
+  width: 500px;
+}
+
+#previous-result {
+  margin: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  color: white (255, 255, 255, 0.65);
+  font-size: 1.2rem;
+}
+
+#current-result {
+  margin: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  color:white;
+  font-size: 2.2rem;
+}
+
+input {
+  height: 100%;
+  width: 100%;
+  background-color:co; 
+  border: none;
+  color: white(0, 0, 0, 0.9);
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  outline: none;
+}
+
+input:hover {
+  cursor: pointer;
+
+}
+
+input:active {
+    filter: brightness(50%);
+}
+
+.calc-storage-row {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  text-align: right;
+  border-collapse: collapse;
+}
+
+#result-row {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  text-align: right;
+  border-collapse: collapse;
+}
+
+.divide {
+  background-color: coral;
+}
+
+.multiply {
+  background-color: yellow;
+}
+
+.minus {
+  background-color: purple;
+}
+
+.plus {
+  background-color: orange;
+}
+
+.equal {
+  background-color: orchid;
+}
+
+.funcbuttons {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.size-fix{
+  font-size:19px;
+}
